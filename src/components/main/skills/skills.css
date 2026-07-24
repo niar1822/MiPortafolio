@@ -1,3 +1,13 @@
 p {
   font-size: 50%;
 }
+
+.card {
+  color: white;
+}
+
+.card h4,
+.card p,
+.card svg {
+  color: white;
+}
