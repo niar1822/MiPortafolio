@@ -74,7 +74,7 @@ export default function Projects() {
               <div id="project-img-container" className="card-img">
                 <motion.img
                   whileHover={{
-                    scale: 2.2,
+                    scale: 1.3,
                   }}
                   transition={{
                     duration: 0.3,
