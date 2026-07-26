@@ -2,6 +2,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "./navbar.css";
+import ThemeToggle from "../../theme/themetoggle";
 
 export default function Navbarjs() {
   return (
@@ -17,11 +18,14 @@ export default function Navbarjs() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
         </div>
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto">
+          <Nav className="ms-auto mt-auto">
             <Nav.Link href="#hero">Hero</Nav.Link>
             <Nav.Link href="#abaut">Sobre mi</Nav.Link>
             <Nav.Link href="#skills">Skills</Nav.Link>
             <Nav.Link href="#projects">Proyecto</Nav.Link>
+            <div className="">
+              <ThemeToggle />
+            </div>
           </Nav>
         </Navbar.Collapse>
       </Container>

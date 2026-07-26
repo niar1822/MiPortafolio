@@ -1,0 +1,26 @@
+.theme-btn {
+  width: 55px;
+  height: 55px;
+
+  border: none;
+  border-radius: 50%;
+
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 22px;
+
+  background: #1f2937;
+  color: white;
+
+  transition: 0.4s;
+}
+
+.theme-btn:hover {
+  transform: rotate(180deg) scale(1.1);
+
+  background: #374151;
+}
