@@ -13,24 +13,33 @@ export default function Abaut() {
       transition={{ duration: 0.6 }}
     >
       <div className="row">
+        <h2
+          className="text-center display-4 fw-bold mb-3 py-4
+         "
+        >
+          Sobre Mi
+        </h2>
         <div className="col-lg-4">
           <Card className="bg-dark" style={{ width: "18rem" }}>
             <Card.Body>
-              <Card.Title> Full Stack Developer</Card.Title>
-              <Card.Subtitle className="mb-2 text-muted">
+              <Card.Title className="text-white">
+                {" "}
+                Full Stack Developer
+              </Card.Title>
+              <Card.Subtitle className="mb-2 text-white">
                 Estudiante de Ingeniería de Software
               </Card.Subtitle>
-              <Card.Text>Aprendiendo React, Node.js y .NET</Card.Text>
-              <Card.Link href="#">
+              <Card.Text className="text-white">
+                Aprendiendo React, Node.js y .NET
+              </Card.Text>
+              <Card.Link href="#" className="text-white">
                 Santo Domingo, República Dominicana
               </Card.Link>
             </Card.Body>
           </Card>
         </div>
         <div className="col-lg-8">
-          <h2>
-            <strong>Sobre Mi</strong>
-          </h2>
+          <h2></h2>
           <div>
             <span>
               Soy desarrollador de software en formación con interés en el

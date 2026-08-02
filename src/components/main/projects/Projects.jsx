@@ -9,7 +9,7 @@ export default function Projects() {
       <motion.h2
         initial={{ y: 0 }}
         animate={{ y: 50 }}
-        className="display-4 text-center fw-bold mb-5 p-3"
+        className="display-4 text-center fw-bold mb-5 py-5"
       >
         Proyectos
       </motion.h2>

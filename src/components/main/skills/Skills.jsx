@@ -21,9 +21,9 @@ import { motion } from "framer-motion";
 import "./skills.css";
 export default function Skills() {
   return (
-    <section id="skills" className="container py-5">
+    <section id="skills" className="container ">
       <motion.h2
-        className="display-4 fw-bold text-center mb-5"
+        className="display-4 fw-bold text-center mb-3 py-5"
         initial={{ opacity: 0, y: -40 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
