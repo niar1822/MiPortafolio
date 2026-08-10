@@ -121,20 +121,24 @@ export default function Projects() {
             whileHover={{ y: -10 }}
           >
             <div className="card-header">
-              <div className="card-img">
-                <img
-                  src="./img/ProjectColmadoApp.png"
-                  alt="Imagen en proceso"
-                />
-              </div>
+              <motion.div
+                className="card-img
+              "
+                whileHover={{
+                  scale: 1.3,
+                }}
+                transition={{
+                  duration: 0.3,
+                }}
+              >
+                <img src="/public/img/image.png" alt="Imagen en proceso" />
+              </motion.div>
             </div>
             <div className="card-body d-flex flex-column">
-              <h4 className="mb-3 text-center">proceso</h4>
+              <h4 className="mb-3 text-center">Dr_drip</h4>
               <p className="card-text p-3">
-                Este es un ptojecto desarrollado en equipo para la materia de
-                progamamción 3 este es un app wed desarrollado con react en el
-                front-end, node.js en el back y como motor de base de datos
-                tilizamos mongoDB
+                Este es un proyecto personal desarrollado para una tienda de
+                ventas de ropa, esta desarrollado con react, node.js.
               </p>
               <div className="d-flex mt-auto justify-content-center p-2 gap-2">
                 <motion.a
@@ -142,7 +146,7 @@ export default function Projects() {
                   whileTap={{ scale: 0.9 }}
                   target="_blank"
                   className="btn btn-outline-primary"
-                  href="https://colmado-app.vercel.app/"
+                  href="https://wed-site-tienda.vercel.app/"
                 >
                   <FaLaptopCode size={20} />
                   Demo
@@ -152,7 +156,7 @@ export default function Projects() {
                   whileTap={{ scale: 0.9 }}
                   target="_blank"
                   className="btn btn-outline-success"
-                  href="https://github.com/nasser05collado22-sys/AppCenter1"
+                  href="https://github.com/niar1822/wedSiteTienda"
                 >
                   <VscCode size={20} />
                   codigo
