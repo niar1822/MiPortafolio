@@ -28,7 +28,7 @@ export default function Projects() {
                   transition={{
                     duration: 0.3,
                   }}
-                  src="./img/colmadoApp.png"
+                  src="/src/assets/img/colmadoApp.png"
                   alt="Imagen app colmado"
                 />
               </div>
@@ -79,7 +79,7 @@ export default function Projects() {
                   transition={{
                     duration: 0.3,
                   }}
-                  src="./img/cenarApp.png"
+                  src="/src/assets/img/cenarApp.png"
                   alt="Imagen app cenar"
                 />
               </div>
@@ -96,7 +96,7 @@ export default function Projects() {
                   whileTap={{ scale: 0.9 }}
                   target="_blank"
                   className="btn btn-outline-primary"
-                  href="https://colmado-app.vercel.app/"
+                  href="https://appcenar1-production-4693.up.railway.app/"
                 >
                   <FaLaptopCode size={20} />
                   Demo
@@ -131,7 +131,7 @@ export default function Projects() {
                   duration: 0.3,
                 }}
               >
-                <img src="/public/img/image.png" alt="Imagen en proceso" />
+                <img src="/src/assets/img/drDrip.png" alt="Imagen de drDrip" />
               </motion.div>
             </div>
             <div className="card-body d-flex flex-column">
@@ -171,18 +171,23 @@ export default function Projects() {
             whileHover={{ y: -10 }}
           >
             <div className="card-header">
-              <div className="card-img">
-                <img
-                  src="./img/ProjectColmadoApp.png"
-                  alt="Imagen en proceso"
-                />
-              </div>
+              <motion.div
+                className="card-img"
+                whileHover={{
+                  scale: 1.3,
+                }}
+                transition={{
+                  duration: 0.3,
+                }}
+              >
+                <img src="/src/assets/img/image.png" alt="Imagen ironPulse" />
+              </motion.div>
             </div>
             <div className="card-body d-flex flex-column">
-              <h4 className="mb-3 text-center">Proceso</h4>
+              <h4 className="mb-3 text-center">Iron Pulse</h4>
               <p className="card-text p-3">
-                Este es un programa desarrollado para la materia de progamacion
-                1, esta diseñádo en Windows forms, con C# y SQL server
+                Este es un web site desarrollado para un entrenador de un gym,
+                el cual muestra demostrar su integridad, visiones y metas
               </p>
             </div>
             <div className="d-flex justify-content-center mt-auto p-2 gap-2">
@@ -191,7 +196,7 @@ export default function Projects() {
                 whileTap={{ scale: 0.9 }}
                 target="_blank"
                 className="btn btn-outline-primary"
-                href="https://colmado-app.vercel.app/"
+                href="iron-pulse-649dogeoz-niar1822s-projects.vercel.app"
               >
                 <FaLaptopCode size={20} />
                 Demo
@@ -201,7 +206,7 @@ export default function Projects() {
                 whileTap={{ scale: 0.9 }}
                 target="_blank"
                 className="btn btn-outline-success"
-                href="https://github.com/nasser05collado22-sys/AppCenter1"
+                href="https://github.com/niar1822/iron-pulse"
               >
                 <VscCode size={20} />
                 codigo
