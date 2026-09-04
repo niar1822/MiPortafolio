@@ -2,6 +2,10 @@ import { motion } from "framer-motion";
 import { VscCode } from "react-icons/vsc";
 import { FaLaptopCode } from "react-icons/fa6";
 import "./projects.css";
+import colmadoApp from "../../../assets/img/colmadoApp.png";
+import cenarApp from "../../../assets/img/cenarApp.png";
+import drDrip from "../../../assets/img/drDrip.png";
+import ironPulse from "../../../assets/img/ironPulse.png";
 
 export default function Projects() {
   return (
@@ -28,7 +32,7 @@ export default function Projects() {
                   transition={{
                     duration: 0.3,
                   }}
-                  src="../../../assets/img/colmadoApp.png"
+                  src={colmadoApp}
                   alt="Imagen app colmado"
                 />
               </div>
@@ -79,7 +83,7 @@ export default function Projects() {
                   transition={{
                     duration: 0.3,
                   }}
-                  src="../../../assets/img/cenarApp.png"
+                  src={cenarApp}
                   alt="Imagen app cenar"
                 />
               </div>
@@ -131,10 +135,7 @@ export default function Projects() {
                   duration: 0.3,
                 }}
               >
-                <img
-                  src="../../../assets/img/drDrip.png"
-                  alt="Imagen de drDrip"
-                />
+                <img src={drDrip} alt="Imagen de drDrip" />
               </motion.div>
             </div>
             <div className="card-body d-flex flex-column">
@@ -183,10 +184,7 @@ export default function Projects() {
                   duration: 0.3,
                 }}
               >
-                <img
-                  src="../../../assets/img/ironPulse.png"
-                  alt="Imagen ironPulse"
-                />
+                <img src={ironPulse} alt="Imagen ironPulse" />
               </motion.div>
             </div>
             <div className="card-body d-flex flex-column">

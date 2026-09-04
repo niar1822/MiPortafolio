@@ -6,10 +6,9 @@ import { IoLogoLinkedin } from "react-icons/io5";
 import { SiMongodb } from "react-icons/si";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
+import imgNasser from "../../../assets/img/NasserF.jpeg";
 
 export default function Hero() {
-  const imgNasser = "../../../assets/img/nasser.png";
-
   return (
     <section id="hero" className="hero">
       <div className="container">
