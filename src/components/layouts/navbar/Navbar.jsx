@@ -11,7 +11,7 @@ export default function Navbarjs() {
         <div className="d-flex align-items-center">
           <img
             className="imgNasser"
-            src="./img/logo.png"
+            src="/src/assets/img/logo.png"
             alt="imagen de nasser"
           />
           <Navbar.Brand href="#hero">Nasser Collado Mesa</Navbar.Brand>
