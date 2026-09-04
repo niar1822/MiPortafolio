@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 
 export default function Hero() {
-  const imgNasser = "/src/assets/img/NasserDL.jpeg";
+  const imgNasser = "../../../assets/img/nasser.png";
 
   return (
     <section id="hero" className="hero">

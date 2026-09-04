@@ -28,7 +28,7 @@ export default function Projects() {
                   transition={{
                     duration: 0.3,
                   }}
-                  src="/src/assets/img/colmadoApp.png"
+                  src="../../../assets/img/colmadoApp.png"
                   alt="Imagen app colmado"
                 />
               </div>
@@ -79,7 +79,7 @@ export default function Projects() {
                   transition={{
                     duration: 0.3,
                   }}
-                  src="/src/assets/img/cenarApp.png"
+                  src="../../../assets/img/cenarApp.png"
                   alt="Imagen app cenar"
                 />
               </div>
@@ -131,7 +131,10 @@ export default function Projects() {
                   duration: 0.3,
                 }}
               >
-                <img src="/src/assets/img/drDrip.png" alt="Imagen de drDrip" />
+                <img
+                  src="../../../assets/img/drDrip.png"
+                  alt="Imagen de drDrip"
+                />
               </motion.div>
             </div>
             <div className="card-body d-flex flex-column">
@@ -180,7 +183,10 @@ export default function Projects() {
                   duration: 0.3,
                 }}
               >
-                <img src="/src/assets/img/image.png" alt="Imagen ironPulse" />
+                <img
+                  src="../../../assets/img/ironPulse.png"
+                  alt="Imagen ironPulse"
+                />
               </motion.div>
             </div>
             <div className="card-body d-flex flex-column">
